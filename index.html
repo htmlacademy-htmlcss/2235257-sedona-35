@@ -2,20 +2,18 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>HTML Academy: Седона</title>
+    <title>Sedona</title>
   </head>
   <body>
 <header class="page-header">
 <nav class="navigation">
 <ul class="navigation-list">
   <li class="navigation-item">
-<a class="navigation-link" href="about.html">О нас</a>
+<a class="navigation-link" href="about.html">О Седоне</a>
   </li>
   <li class="navigation-item">
-    <a class="navigation-link" href="catalog.html">Каталог</a>
+    <a class="navigation-link" href="catalog.html">Гостиницы</a>
       </li>
-    <li class="navigation-item">
-      <a class="navigation-link" href="faq.html">Частые вопросы</a>
         </li>
         <ul class="navigation-list navigation-user">
         <li class="navigation-item">
@@ -23,10 +21,9 @@
           Поиск
         </span>
         </a>
-        <span class="visually-hidden>"
-        </li>
+        <span class="visually-hidden">
         <li class="navigation-item">
-        <a class="navigation-link" href="#">Корзина</a>
+        <a class="navigation-link" href="#">Хочу сюда!</a>
          </li>
         <li class="navigation-item">
         <a class="navigation-link" href="#">Вход</a>
@@ -123,12 +120,42 @@ slider-pagination-button-current" type="button">
     </section>
     <section class="contacts">
       <h2 class="contacts-title">Контакты</h2>
+      <label for="newsletter-email">Email</label>
+      <input class="field" placeholder="email@example.com" type="email"
+      name="newwsletter-email" id="newsletter-email" required>
+      <button class="button newslettetter button" type="submit">
+        <span class="visually-hidden">Подписаться на рассылку</span>
+      </button>
       <p class="appointment-form-phone">
       <label for="appointment-phone">Телефон</label>
       <input type="text" id="appointment-phone" name="appointment-phone" placeholder="+7-812-12-12">
     </p>
     </section>
     </footer>
+
+    <section class="footer-social">
+      <h2 class="page-footer-title">Давайте дружить</h2>
+      <span class="visually-hidden">Соцсети</span>
+      <ul class="footer-social-list">
+        <li class="footer-social-item">
+          <a class="button" href="#">
+            <span class="visually-hidden">ВКонтакте</span>
+          </a>
+        </li>
+        <li class="footer-social-item">
+          <a class="button" href="#">
+            <span class="visually-hidden">Телеграм</span>
+          </a>
+        </li>
+        <li class="footer-social-item">
+          <a class="button" href="#">
+            <span class="visually-hidden">YouTube</span>
+          </a>
+        </li>
+      </ul>
+    <p class="about-text">+7(812)812-12-12 .htmlacademy</p>
+    </section>
+  </footer>
 
   </body>
 </html>
