@@ -12,8 +12,7 @@
 <a class="navigation-link" href="about.html">Главная</a>
       </li>
     <li class="navigation-item">
-    <a class="navigation-link" href="catalog.html">Гостиницы</li>
-      <img class="back-ground-item" src="image/back-ground/back-ground-5.png" width="1200 px" height="412 px">
+    <a class="navigation-link" href="catalog.html">Гостиницы) </li>
     </li>
   </ul>
 
@@ -110,7 +109,7 @@
     </select>
   <li class="room-card">
     <a class="room-card-link" href="room.html">
-      <img class="room-card-image" src="image/hotels/hotels-1.png" alt="Amara Resort & Spa">
+      <img class="room-card-image" src="" alt="">
       <h3 class="room-card-title">Amara Resort & Spa</h3>
   </a>
   <b class="room-card-price">от 4000 р</b>
@@ -124,7 +123,7 @@
 
   <li class="room-card">
     <a class="room-card-link" href="room.html">
-      <img class="room-card-image" src="image/hotels/hotels-2.png" alt="Villas at Poco Diablo">
+      <img class="room-card-image" src="" alt="">
       <h3 class="room-card-title">Villas at Poco Diablo</h3>
   </a>
   <b class="room-card-price">от 5000 р</b>
@@ -138,7 +137,7 @@
 </li>
   <li class="room-card">
     <a class="room-card-link" href="room.html">
-      <img class="room-card-image" src="image/hotels/hotels-3.png" alt="Desert Quail Inn">
+      <img class="room-card-image" src="" alt="">
       <h3 class="room-card-title">Desert Quail Inn</h3>
   </a>
   <b class="room-card-price">от 2500 р</b>
@@ -151,14 +150,14 @@
 </li>
   <li class="room-card">
     <a class="room-card-link" href="room.html">
-      <img class="room-card-image" src="image/hotels/hotels-4.png" alt="GreenTree Inn">
+      <img class="room-card-image" src="" alt="">
       <h3 class="room-card-title">GreenTree Inn</h3>
   </a>
   <b class="room-card-price">от 1500 р</b>
-  <a class="room-card-button button" href="#">Подробнее))))</a>
+  <a class="room-card-button button" href="#">Подробнее</a>
   <span class="room-card-button button" href="#">Избранное</span>
   <div class="rating-area">
-    <input type="radio" id="star-10" name="rating" value="5.01">
+    <input type="radio" id="star-10" name="rating" value="5.0">
     <label for="star-5" title="Рейтинг"></label>
     </div>
 </li>
